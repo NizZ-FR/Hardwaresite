@@ -113,5 +113,13 @@
          font-family: Arial;
          text-align: center;
          font-size: 2em;
-         text-decoration: underline;
+         text-decoration: Bold;
+     }
+     
+     p {
+         text-align: center;
+     }
+     
+     h2 {
+         text-align: center;
      }
