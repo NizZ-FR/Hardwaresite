@@ -11,9 +11,9 @@
          display: inline-block;
          font-size: 2em;
          font-weight: 800;
-         color: black;
+         color: royalblue;
          background: -webkit-gradient(linear, left top, right top, from(midnightblue), color-stop(50%, midnightblue), color-stop(50%, black));
-         background: linear-gradient(to right, white, white 50%, black 50%);
+         background: linear-gradient(to right, transparent, transparent 50%, black 50%);
          background-clip: text;
          -webkit-background-clip: text;
          -webkit-text-fill-color: transparent;
@@ -29,7 +29,7 @@
      }
      
      header {
-         background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
+         background-color: #3f3f3f;
          height: 300px;
          width: 100%;
          background-size: cover;
@@ -45,6 +45,7 @@
          font-size: 10px;
          left: 35%;
          font-family: Impact;
+         background-color: Black;
      }
      
      header nav ul li {
@@ -112,7 +113,7 @@
          color: greenyellow;
          font-family: Arial;
          text-align: center;
-         font-size: 2em;
+         font-size: 2.5em;
          text-decoration: Bold;
      }
      
