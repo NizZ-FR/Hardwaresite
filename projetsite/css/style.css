@@ -74,7 +74,8 @@
          height: 100%;
          background-size: auto;
          position: absolute;
-         background-position: left;
+         background-position: center;
+         bottom: 45.5%;
      }
      
      aside {}
