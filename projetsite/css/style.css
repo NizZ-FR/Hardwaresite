@@ -1,8 +1,7 @@
      /* styles de base */
      
      body {
-         
-         width: 80%;
+         background-color: gray;
          margin: 10px;
          padding: 0;
      }
@@ -12,15 +11,16 @@
          display: inline-block;
          font-size: 2em;
          font-weight: 800;
-         color: blakc;
-         background: linear-gradient(to right, white, white 50%, black 50%);
+         color: royalblue;
+         background: -webkit-gradient(linear, left top, right top, from(midnightblue), color-stop(50%, midnightblue), color-stop(50%, black));
+         background: linear-gradient(to right, transparent, transparent 50%, black 50%);
          background-clip: text;
          -webkit-background-clip: text;
          -webkit-text-fill-color: transparent;
          background-size: 200% 100%;
          background-position: 100%;
-         -webkit-transition: background-position 300ms ease;
-         transition: background-position 300ms ease;
+         -webkit-transition: background-position 275ms ease;
+         transition: background-position 275ms ease;
          text-decoration: none;
      }
      
@@ -29,8 +29,7 @@
      }
      
      header {
-         background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
-         height: 300px;
+         background-image: url(../images/wallpaperflare.com_wallpaper.jpg) height: 300px;
          width: 100%;
          background-size: cover;
          float: left;
