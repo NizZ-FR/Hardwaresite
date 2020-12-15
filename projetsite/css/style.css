@@ -1,0 +1,77 @@
+     /* styles de base */
+     
+     body {
+         background-color: gray;
+         margin: 10px;
+         padding: 0;
+     }
+     
+     header {
+         background-color: #3f3f3f;
+         height: 300px;
+         width: 100%;
+         background-size: cover;
+         float: left;
+         background-position: center;
+     }
+     
+     header nav {
+         width: 75%;
+         float: center;
+         position: relative;
+         top: 70%;
+         font-size: 20px;
+         left: 35%;
+     }
+     
+     header nav ul li {
+         display: inline;
+         float: center;
+         color: black;
+         font-family: Impact;
+         padding: 10px;
+     }
+     
+     header nav ul li a {
+         text-decoration: none;
+         color: black;
+     }
+     
+     header nav ul li a:hover {
+         text-decoration: underline;
+         color: black;
+     }
+     
+     header nav ul li a:active {
+         background-color: underline;
+     }
+     
+     header nav ul li a:focus {
+         background-color: none;
+     }
+     
+     header nav ul li a:visited {
+         color: black;
+     }
+     
+     header #logo {
+         background-image: url(../images/logo.png);
+         background-repeat: no-repeat;
+         width: 100%;
+         float: left;
+         height: 100%;
+         background-size: auto;
+         position: absolute;
+         background-position: center;
+         bottom: 45.5%;
+     }
+     
+     aside {}
+     
+     article {}
+     
+     footer {
+         width: 100%;
+         clear: both;
+         background-color: #3f3f3f
+     }
