@@ -6,6 +6,28 @@
          padding: 0;
      }
      
+     a {
+         position: relative;
+         display: inline-block;
+         font-size: 2em;
+         font-weight: 800;
+         color: royalblue;
+         background: -webkit-gradient(linear, left top, right top, from(midnightblue), color-stop(50%, midnightblue), color-stop(50%, black));
+         background: linear-gradient(to right, transparent, transparent 50%, black 50%);
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         background-size: 200% 100%;
+         background-position: 100%;
+         -webkit-transition: background-position 275ms ease;
+         transition: background-position 275ms ease;
+         text-decoration: none;
+     }
+     
+     a:hover {
+         background-position: 0 100%;
+     }
+     
      header {
          background-color: #3f3f3f;
          height: 300px;
@@ -16,22 +38,19 @@
      }
      
      header nav {
-         width: 75%;
+         width: 80%;
          float: center;
          position: relative;
          top: 70%;
-         font-size: 20px;
+         font-size: 10px;
          left: 35%;
-         text-transform: uppercase;
-         white-space: nowrap;
-         line-height: 1em;
+         font-family: Impact;
      }
      
      header nav ul li {
          display: inline;
          float: center;
          color: black;
-         font-family: Impact;
          padding: 10px;
      }
      
