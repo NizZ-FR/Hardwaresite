@@ -25,6 +25,8 @@
          text-transform: uppercase;
          white-space: nowrap;
          line-height: 1em;
+         transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+         background-color: transparent;
      }
      
      header nav ul li {
