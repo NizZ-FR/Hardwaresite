@@ -39,20 +39,17 @@
      
      header nav ul li a {
          text-decoration: none;
-         color: black;
          transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
          background-color: transparent;
      }
      
      header nav ul li a:hover {
-         text-decoration: underline;
-         color: black;
          transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
          background-color: transparent;
      }
      
      header nav ul li a:active {
-         background-color: underline;
+         background-color: none;
      }
      
      header nav ul li a:focus {
