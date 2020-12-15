@@ -67,7 +67,7 @@
      }
      
      header nav ul li a:visited {
-         color: black;
+         color: transparent;
      }
      
      header #logo {
@@ -117,7 +117,7 @@
      
      #menu-accordeon li {
          background-color: black;
-         background-image: -webkit-linear-gradient(top, black 0%);
+         background-image: -webkit-linear-gradient(top, transparent 0%);
          border-radius: 6px;
          margin-bottom: 2px;
      }
