@@ -1,0 +1,125 @@
+     /* styles de base */
+     
+     body {
+         background-color: gray;
+         margin: 10px;
+         padding: 0;
+     }
+     
+     a {
+         position: relative;
+         display: inline-block;
+         font-size: 2em;
+         font-weight: 800;
+         color: royalblue;
+         background: -webkit-gradient(linear, left top, right top, from(midnightblue), color-stop(50%, midnightblue), color-stop(50%, black));
+         background: linear-gradient(to right, transparent, transparent 50%, black 50%);
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         background-size: 200% 100%;
+         background-position: 100%;
+         -webkit-transition: background-position 275ms ease;
+         transition: background-position 275ms ease;
+         text-decoration: none;
+     }
+     
+     a:hover {
+         background-position: 0 100%;
+     }
+     
+     header {
+         background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
+         height: 300px;
+         width: 100%;
+         background-size: cover;
+         float: left;
+         background-position: center;
+     }
+     
+     header nav {
+         width: 80%;
+         float: center;
+         position: relative;
+         top: 70%;
+         font-size: 10px;
+         left: 35%;
+         font-family: Impact;
+     }
+     
+     header nav ul li {
+         display: inline;
+         float: center;
+         color: black;
+         padding: 10px;
+     }
+     
+     header nav ul li a {
+         text-decoration: none;
+     }
+     
+     header nav ul li a:hover {
+         text-decoration: none;
+     }
+     
+     header nav ul li a:active {
+         background-color: none;
+     }
+     
+     header nav ul li a:focus {
+         background-color: none;
+     }
+     
+     header nav ul li a:visited {
+         color: black;
+     }
+     
+     header #logo {
+         background-image: url(../images/logo_small_icon_only_inverted.png);
+         background-repeat: no-repeat;
+         width: 100%;
+         float: left;
+         height: 100%;
+         background-size: auto;
+         position: absolute;
+         background-position: left;
+         bottom: 22.5%;
+     }
+     
+     header #logo2 {
+         background-image: url(../images/logo.png);
+         background-repeat: no-repeat;
+         width: 100%;
+         float: left;
+         height: 100%;
+         background-size: auto;
+         position: absolute;
+         background-position: center;
+         bottom: 45.5%;
+     }
+     
+     aside {}
+     
+     article {}
+     
+     footer {
+         width: 100%;
+         clear: both;
+         background-color: #3f3f3f
+     }
+     
+     h1 {
+         color: greenyellow;
+         font-family: Arial;
+         text-align: center;
+         font-size: 2em;
+         text-decoration: Bold;
+     }
+     
+     p {
+         text-align: center;
+     }
+     
+     h2 {
+         text-align: center;
+     }
