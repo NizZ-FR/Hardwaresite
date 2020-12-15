@@ -107,3 +107,11 @@
          clear: both;
          background-color: #3f3f3f
      }
+     
+     h1 {
+         color: greenyellow;
+         font-family: Arial;
+         text-align: center;
+         font-size: 2em;
+         text-decoration: underline;
+     }
