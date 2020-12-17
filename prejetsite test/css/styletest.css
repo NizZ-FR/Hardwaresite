@@ -120,6 +120,7 @@
          background-image: -webkit-linear-gradient(top, transparent 0%);
          border-radius: 6px;
          margin-bottom: 2px;
+         text-align: center;
      }
      
      #menu-accordeon li li {
