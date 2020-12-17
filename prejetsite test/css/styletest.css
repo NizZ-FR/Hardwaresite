@@ -164,3 +164,59 @@
      #menu-accordeon li:hover li {
          max-height: 15em;
      }
+     
+     .teaser {
+         backface-visibility: hidden;
+         border: 1px solid #ccc;
+         border-radius: 3px;
+         padding: 1em;
+         max-width: 300px;
+         overflow: hidden;
+         position: relative;
+         &:after {
+             content: '';
+             border-radius: 50%;
+             display: block;
+             width: 300px;
+             height: 300px;
+             position: absolute;
+             right: -150px;
+             bottom: -150px;
+             transition: all 300ms ease-out;
+         }
+         &:before {
+             @supports (mix-blend-mode: difference) {
+                 background-color: white;
+                 mix-blend-mode: difference;
+             }
+             z-index: 1;
+             pointer-events: none;
+         }
+         &:after {
+             background-color: #e20074;
+             @supports (mix-blend-mode: difference) {
+                 background-color: adjust_hue(#e20074, 180); //#e20074; <- desired color, complementary color does not match exactly
+             }
+             z-index: -1;
+         }
+         &:hover {
+             @supports not (mix-blend-mode: difference) {
+                 color: white;
+             }
+             &:before,
+             &:after {
+                 transform: scale(3);
+             }
+         }
+     }
+     
+     // defaults
+     *,
+     *:after,
+     *:before {
+         box-sizing: border-box;
+     }
+     
+     body {
+         margin: 1em;
+     }
