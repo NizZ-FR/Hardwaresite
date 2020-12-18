@@ -85,6 +85,18 @@
          bottom: 22.5%;
      }
      
+     header #logo2 {
+         background-image: url(../images/logo.png);
+         background-repeat: no-repeat;
+         width: 100%;
+         float: left;
+         height: 100%;
+         background-size: auto;
+         position: absolute;
+         background-position: center;
+         bottom: 45.5%;
+     }
+     
      footer {
          width: 100%;
          clear: both;
