@@ -1,7 +1,9 @@
      /* styles de base */
      
      body main select {
-         text-align: center;
+         position: relative;
+         top: 20%;
+         left: 50%;
      }
      
      a {
