@@ -1,7 +1,7 @@
      /* styles de base */
      
-     body {
-         background-size: cover;
+     body select {
+         padding-left: 150 px;
      }
      
      a {
