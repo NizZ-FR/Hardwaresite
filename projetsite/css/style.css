@@ -1,8 +1,8 @@
      /* styles de base */
      
-     body {
-         background-image: url(../images/5ec75a90169eaeca812426d9664433f1.jpg);
-         background-size: cover;
+     body main select {
+         position: relative;
+         left: 45.8%;
      }
      
      a {
@@ -83,6 +83,18 @@
          position: absolute;
          background-position: left;
          bottom: 22.5%;
+     }
+     
+     header #logo2 {
+         background-image: url(../images/logo.png);
+         background-repeat: no-repeat;
+         width: 100%;
+         float: left;
+         height: 100%;
+         background-size: auto;
+         position: absolute;
+         background-position: center;
+         bottom: 45.5%;
      }
      
      footer {
