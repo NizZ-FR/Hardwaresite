@@ -51,7 +51,7 @@
      header nav ul li {
          display: inline;
          float: center;
-         color: black;
+         color: #8b949e;
          padding: 10px;
      }
      
@@ -110,7 +110,7 @@
      }
      
      h1 {
-         color: greenyellow;
+         color: #388bfd;
          font-family: Arial;
          text-align: center;
          font-size: 2em;
@@ -119,10 +119,12 @@
      
      p {
          text-align: center;
+         color: #8b949e;
      }
      
      h2 {
          text-align: center;
+         color: #8b949e;
      }
      
      @import url("https://fonts.googleapis.com/css?family=Assistant:400,700|Playfair+Display:900");
@@ -134,7 +136,7 @@
      
       :root {
          --clr-light: #ffffff;
-         --clr-dark: #000000;
+         --clr-dark: #06090f;
          --clr-primary: #dbffa2;
          --clr-secondary: #c3fcf2;
          --clr-accent: #ff7750;
@@ -146,9 +148,9 @@
      
      .darkmode {
          --clr-light: #ffffff;
-         --clr-dark: #000000;
+         --clr-dark: #06090f;
          --clr-primary: #202302;
-         --clr-secondary: #00100d;
+         --clr-secondary: #06090f;
          --clr-accent: #ff7750;
          --foreground: var(--clr-light);
          --background: var(--clr-dark);
