@@ -34,8 +34,8 @@
          height: 300px;
          width: 100%;
          background-size: cover;
-         float: left;
-         background-position: center;
+         /*float: left;
+         background-position: center;*/
      }
      
      header nav {
