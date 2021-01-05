@@ -3,6 +3,8 @@
      body {
          background-image: url(../images/5ec75a90169eaeca812426d9664433f1.jpg);
          background-size: cover;
+         background-image: url(../images/b.jpg);
+         width: 100%;
          margin: 10px;
          padding: 0;
      }
