@@ -1,8 +1,5 @@
 # Hardwaresite
 site web pour l’école en entrainement 
-page princpal mettre logo + des info 
-page config formuilaire choix pc etc
-clavier con,seil plius formulaire 
-deskpad exposition de tapis avec photo etc 
-menu deroulant link : http://www.frogweb.fr/menu-deroulant-vertical/
-montre la ou les menu deroulé 
+ config haute gamme : 6000 - 2000
+ Config milleu de gamme : 2000 - 1000
+ config bas de gamme: 1000-500
