@@ -1,5 +1,10 @@
      /* styles de base */
      
+     body main select {
+         position: relative;
+         left: 45.8%;
+     }
+     
      body {
          background-image: url(../images/5ec75a90169eaeca812426d9664433f1.jpg);
          background-size: cover;
