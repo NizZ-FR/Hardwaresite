@@ -6,9 +6,9 @@
      }
      
      body {
-         background-image: url(../images/lianli.png);
+         background-image: url(../images/5ec75a90169eaeca812426d9664433f1.jpg);
          background-size: cover;
-         background-image: url(../images/AMD.png);
+         background-image: url(../images/b.jpg);
          width: 100%;
          margin: 10px;
          padding: 0;
@@ -36,7 +36,14 @@
          background-position: 0 100%;
      }
      
-     header {}
+     header {
+         background-image: url(../images/images.jpg);
+         height: 300px;
+         width: 100%;
+         background-size: cover;
+         float: left;
+         background-position: center;
+     }
      
      header nav {
          width: 80%;
