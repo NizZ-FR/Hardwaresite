@@ -5,7 +5,8 @@ body {
 }
 
 img {
-    border: 0
+    border: background-image: url(../images/lianli.jpg);
+    background-image: url(../images/AMD.jpg)
 }
 
 .thumb {
